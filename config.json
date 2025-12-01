@@ -8,7 +8,7 @@
 		"bitmaps_dir": "png",
 		"bitmaps_resized": true,
 		"out_dir": "build",
-		"platforms": ["x11"]
+		"platforms": ["x11", "windows"]
 	},
 	"cursors": {
 		"fallback_settings": {

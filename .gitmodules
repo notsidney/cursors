@@ -1,0 +1,3 @@
+[submodule "clickgen"]
+	path = clickgen
+	url = https://github.com/notsidney/clickgen.git
