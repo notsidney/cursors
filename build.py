@@ -40,8 +40,5 @@ if p.exists() and p.is_dir() and not any(p.iterdir()):
 
 shutil.rmtree("./build")
 
-sys.argv = ["ctgen", "-p", "x11", "config.json"]
-main()
-
-sys.argv = ["ctgen", "-p", "windows", "-n", "Sidney's", "config.json"]
+sys.argv = ["ctgen", "config.json"]
 main()
